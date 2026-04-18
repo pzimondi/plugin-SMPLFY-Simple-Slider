@@ -748,7 +748,7 @@ function bs_job_social_shortcode()
                 <h2>About the Opportunity</h2>
             </div>
             <p>Join our remote, distributed team as a Junior Social Media Specialist and gain real world experience managing digital marketing strategies for a WordPress development agency specializing in business applications. This internship offers hands on training in content creation, audience engagement, analytics and social media campaign execution across multiple platforms.</p>
-            <p style="margin-top: 14px; color: #f97316; font-weight: 500;">If you're passionate about digital communication, branding and storytelling, this role will help you build the skills needed for a career in modern marketing.</p>
+            <p style="margin-top: 14px; color: #4CAF50; font-weight: 500;">If you're passionate about digital communication, branding and storytelling, this role will help you build the skills needed for a career in modern marketing.</p>
         </div>
 
         <div class="bs-job-two-col">
@@ -885,7 +885,7 @@ function bs_job_analyst_shortcode()
                 <h2>About the Opportunity</h2>
             </div>
             <p>Join our fully remote team as a Junior Business Analyst and gain hands on experience supporting the operations of a modern WordPress development agency. This internship provides real exposure to business strategy, project coordination, client workflows and the systems behind delivering custom business applications.</p>
-            <p style="margin-top: 14px; color: #3b82f6; font-weight: 500;">If you're interested in business operations, management and process optimization, this role will help you develop practical, industry ready skills.</p>
+            <p style="margin-top: 14px; color: #F9B500; font-weight: 500;">If you're interested in business operations, management and process optimization, this role will help you develop practical, industry ready skills.</p>
         </div>
 
         <div class="bs-job-two-col">

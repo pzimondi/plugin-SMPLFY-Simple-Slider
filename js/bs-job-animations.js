@@ -39,7 +39,7 @@
         };
     }
 
-    /* ===== LIGHT TRAILS (Web Developer - Green) ===== */
+    /* ===== LIGHT TRAILS (Web Developer - Red) ===== */
     document.querySelectorAll('.bs-hero-lighttrails').forEach(function(hero) {
         var s = setupCanvas(hero);
         if (!s) return;
@@ -90,9 +90,9 @@
                     p.trail[i].y += (p.trail[i - 1].y - p.trail[i].y) * 0.35;
                 }
 
-                var r = Math.round(34 + p.hue * 0);
-                var g = Math.round(180 + p.hue * 17);
-                var b = Math.round(80 + p.hue * 14);
+                var r = Math.round(227 + p.hue * 0);
+                var g = Math.round(11 + p.hue * 30);
+                var b = Math.round(92 + p.hue * 30);
 
                 for (var i = p.trail.length - 1; i >= 0; i--) {
                     var alpha = ((p.trail.length - i) / p.trail.length) * 0.25;
@@ -114,7 +114,7 @@
         observer.observe(hero);
     });
 
-    /* ===== ORBIT RINGS (Web Designer - Purple) ===== */
+    /* ===== ORBIT RINGS (Web Designer - Blue) ===== */
     document.querySelectorAll('.bs-hero-orbitrings').forEach(function(hero) {
         var s = setupCanvas(hero);
         if (!s) return;
@@ -150,7 +150,7 @@
             rings.forEach(function(ring) {
                 s.ctx.beginPath();
                 s.ctx.arc(cx, cy, ring.radius, 0, Math.PI * 2);
-                s.ctx.strokeStyle = 'rgba(168,85,247,' + ring.alpha + ')';
+                s.ctx.strokeStyle = 'rgba(29,71,161,' + ring.alpha + ')';
                 s.ctx.lineWidth = 1;
                 s.ctx.stroke();
 
@@ -161,13 +161,13 @@
 
                     s.ctx.beginPath();
                     s.ctx.arc(x, y, dot.size, 0, Math.PI * 2);
-                    s.ctx.fillStyle = 'rgba(168,85,247,' + (ring.alpha + 0.12) + ')';
+                    s.ctx.fillStyle = 'rgba(29,71,161,' + (ring.alpha + 0.12) + ')';
                     s.ctx.fill();
 
                     s.ctx.beginPath();
                     s.ctx.moveTo(cx, cy);
                     s.ctx.lineTo(x, y);
-                    s.ctx.strokeStyle = 'rgba(168,85,247,0.02)';
+                    s.ctx.strokeStyle = 'rgba(29,71,161,0.02)';
                     s.ctx.lineWidth = 0.5;
                     s.ctx.stroke();
                 });
@@ -183,7 +183,7 @@
         observer.observe(hero);
     });
 
-    /* ===== FLOATING SHAPES (Social Media - Orange) ===== */
+    /* ===== FLOATING SHAPES (Social Media - Green) ===== */
     document.querySelectorAll('.bs-hero-floatshapes').forEach(function(hero) {
         var s = setupCanvas(hero);
         if (!s) return;
@@ -231,9 +231,9 @@
                 if (sh.y < -50) sh.y = h + 50;
                 if (sh.y > h + 50) sh.y = -50;
 
-                var r = Math.round(249 - sh.hue * 30);
-                var g = Math.round(115 + sh.hue * 10);
-                var b = Math.round(22 + sh.hue * 50);
+                var r = Math.round(76 + sh.hue * 20);
+                var g = Math.round(175 + sh.hue * 10);
+                var b = Math.round(80 + sh.hue * 30);
 
                 s.ctx.save();
                 s.ctx.translate(sh.x, sh.y);
@@ -276,7 +276,7 @@
         observer.observe(hero);
     });
 
-    /* ===== WAVE RIPPLE (Business Analyst - Blue) ===== */
+    /* ===== WAVE RIPPLE (Business Analyst - Yellow) ===== */
     document.querySelectorAll('.bs-hero-waveripple').forEach(function(hero) {
         var s = setupCanvas(hero);
         if (!s) return;
@@ -315,7 +315,7 @@
                     else s.ctx.lineTo(x, y);
                 }
 
-                s.ctx.strokeStyle = 'rgba(59,130,246,' + alpha + ')';
+                s.ctx.strokeStyle = 'rgba(249,181,0,' + alpha + ')';
                 s.ctx.lineWidth = 1.5;
                 s.ctx.stroke();
             }
@@ -336,7 +336,7 @@
         var cursor = document.createElement('span');
         cursor.className = 'bs-cursor';
         cursor.textContent = '▋';
-        cursor.style.cssText = 'color:#22c55e;animation:bsBlink .7s step-end infinite;margin-left:2px;';
+        cursor.style.cssText = 'color:#E30B5C;animation:bsBlink .7s step-end infinite;margin-left:2px;';
 
         var lineIndex = 0;
         var charIndex = 0;
