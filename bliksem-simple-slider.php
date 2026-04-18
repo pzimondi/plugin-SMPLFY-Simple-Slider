@@ -51,6 +51,10 @@ function bs_enqueue_styles()
     // Job listing animations
     wp_register_script('bs_job_anim_js', plugin_dir_url(__FILE__) . 'js/bs-job-animations.js', array(), '1.0', true);
     wp_enqueue_script('bs_job_anim_js');
+
+    // Scroll-to-top button
+    wp_register_script('smplfy_scroll_to_top', plugin_dir_url(__FILE__) . 'js/scroll-to-top.js', array(), '1.0', true);
+    wp_enqueue_script('smplfy_scroll_to_top');
 }
 
 /* Register Testimonial Custom Post Type
