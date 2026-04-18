@@ -1014,8 +1014,8 @@
 }
 
 .bs-star-item:hover {
-    background: #fefce8;
-    border-color: #fde68a;
+    background: #eff4fb;
+    border-color: #c7d8ef;
     transform: translateX(4px)
 }
 
@@ -1023,7 +1023,7 @@
     width: 22px;
     flex-shrink: 0;
     margin-top: 1px;
-    color: #f59e0b
+    color: #1D47A1
 }
 
 .bs-star-icon svg {
@@ -1051,7 +1051,7 @@
 }
 
 .bs-designer-sublabel.bonus {
-    color: #f59e0b
+    color: #1D47A1
 }
 
 /* Ideal candidate */
@@ -1358,15 +1358,15 @@
 }
 
 .bs-sparkle-item:hover {
-    background: #fefce8;
-    border-color: #fde68a;
+    background: #f0fdf4;
+    border-color: #c6f0d4;
     transform: translateX(3px)
 }
 
 .bs-sparkle-icon {
     flex-shrink: 0;
     margin-top: 2px;
-    color: #f59e0b
+    color: #4CAF50
 }
 
 .bs-sparkle-icon svg {
@@ -1392,7 +1392,7 @@
 }
 
 .bs-social-sublabel.extra {
-    color: #f59e0b
+    color: #4CAF50
 }
 
 /* ========== BUSINESS ANALYST (Yellow — #F9B500) ========== */
@@ -1619,15 +1619,15 @@
 }
 
 .bs-tag-item:hover {
-    background: #f0fdf4;
-    border-color: #c6f0d4;
+    background: #fffbeb;
+    border-color: #fde68a;
     transform: translateX(3px)
 }
 
 .bs-tag-icon {
     display: inline-flex;
     padding: 2px 8px;
-    background: #4CAF50;
+    background: #F9B500;
     color: #fff;
     border-radius: 4px;
     font-size: .65rem;
@@ -1656,7 +1656,7 @@
 }
 
 .bs-analyst-sublabel.extra {
-    color: #4CAF50
+    color: #F9B500
 }
 
 .bs-analyst-skills-label {

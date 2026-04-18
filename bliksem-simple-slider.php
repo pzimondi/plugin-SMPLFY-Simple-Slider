@@ -438,7 +438,7 @@ function bs_apply_shortcode($atts)
 add_shortcode('simplify_job_webdev', 'bs_job_webdev_shortcode');
 function bs_job_webdev_shortcode()
 {
-    $svg_check = '<span style="display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;min-width:20px;flex-shrink:0;margin-top:2px;background:#22c55e;border-radius:4px;transform:rotate(45deg)"><span style="display:block;width:7px;height:7px;background:#fff;border-radius:1px;transform:rotate(-45deg)"></span></span>';
+    $svg_check = '<span style="display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;min-width:20px;flex-shrink:0;margin-top:2px;background:#E30B5C;border-radius:4px;transform:rotate(45deg)"><span style="display:block;width:7px;height:7px;background:#fff;border-radius:1px;transform:rotate(-45deg)"></span></span>';
 
     ob_start();
     ?>
