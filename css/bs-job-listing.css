@@ -679,7 +679,7 @@
 }
 
 .bs-job-sublabel.bonus {
-    color: #f59e0b
+    color: #E30B5C !important
 }
 
 .bs-check-list {
@@ -1714,3 +1714,5 @@
         box-shadow: 0 4px 12px rgba(29, 71, 161, .08)
     }
 }
+
+
