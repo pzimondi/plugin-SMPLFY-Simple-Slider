@@ -991,3 +991,16 @@ function bs_job_analyst_shortcode()
     <?php
     return ob_get_clean();
 }
+
+
+
+
+/* ============================================================
+   SCROLL TO TOP BUTTON — injected into footer
+   ============================================================ */
+
+add_action('wp_footer', 'bs_render_scroll_to_top_button', 20);
+function bs_render_scroll_to_top_button()
+{
+    echo '<button id="scroll-to-top" aria-label="Scroll to top" title="Back to top"></button>';
+}
