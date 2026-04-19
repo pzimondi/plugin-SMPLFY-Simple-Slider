@@ -27,7 +27,7 @@ jQuery(document).ready(function($) {
 		  auto: true,
 		  controls: true,
 		  mode: 'horizontal',
-		  speed: 100,
+		  speed: 250,
 		  pause: 25000,
 		  pager: true,
 		  infiniteLoop: true,
